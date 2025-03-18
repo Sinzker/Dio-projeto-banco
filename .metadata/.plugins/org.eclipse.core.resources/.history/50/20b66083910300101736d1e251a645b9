@@ -1,0 +1,38 @@
+package code;
+
+import java.util.Scanner;
+
+public class ContaTerminal {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int numeroConta;
+		String nomeCliente, agencia;
+		double saldo;
+		
+		System.out.println("Por favor entre com o Número da Agência: ");
+		numeroConta = sc.nextInt();
+		
+		System.out.println("Por favor digite seu Nome: ");
+		nomeCliente = sc.next();
+		
+		System.out.println("Por favor entre com o Número da Agência: ");
+		agencia = sc.next();
+		
+		System.out.println("Digite o Saldo: ");
+		saldo = sc.nextDouble();
+		
+		System.out.println("CC: " + numeroConta + "Cliente: " + nomeCliente + "Agência: " + agencia + "Saldo: " + saldo);
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\sinzk\Desktop\DIO\Conta banco\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3546582108.index
+2175250271.index
